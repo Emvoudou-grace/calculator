@@ -1,0 +1,13 @@
+body { margin: 0; display: flex ;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #888;}
+body > div {height: 100vh;}
+p {color: gray;}
+#header {font-size: 20px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+#main {width: 80%;background-color: #E5E5E5;}
+.vl {border-left: 1.5px solid; color:#CCC;height: 600px;position: absolute;right: 330px;}
+#panel {width: 20%; font-size: 17px;word-spacing: 10px; border-spacing: 10px; background-color: #E5E5E5; padding-left:15px;}
+#memory > .btn{border:0; background-color: #E5E5E5; font-size: 15px; width: 75px;}
+#memory > .btn:hover { background-color:#bbb ;}
+#screen {font-size: 70px; text-align: right; padding-right: 8px; font-weight:600}
+#controls > div {display: flex; flex-wrap: wrap ;}
+#controls > div .btn {width: 20%; display: block; border: 0; font-size: 25px; height: 123px; background-color: #CCC; ;}
+#controls > div .btn:hover{background-color: #bbb;}
